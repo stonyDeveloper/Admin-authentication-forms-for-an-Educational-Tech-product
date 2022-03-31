@@ -1,0 +1,190 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        /* position: relative; */
+        width: 1440px;
+        height: 900px;
+        background: #F8FAFB;
+    }
+    
+    .main-container {
+        outline: red solid 1px;
+        margin: 10px;
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    
+    header img {
+        position: absolute;
+        left: 43.68%;
+        right: 43.73%;
+        top: 19.22%;
+        bottom: 77.22%;
+    }
+    
+    .form-container {
+        position: absolute;
+        width: 595px;
+        height: 461px;
+        left: 423px;
+        top: 237px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        border-radius: 24px;
+        /* outline: red solid 1px; */
+    }
+    
+    .form-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* outline: red solid 1px; */
+        padding: 0;
+        margin-top: 40px;
+    }
+    
+    .form-title div {
+        width: 108px;
+        height: 39px;
+        left: 666px;
+        top: 277px;
+        margin-bottom: 16px;
+        /* Heading-3/32px/regular */
+        font-family: 'Gascogne-DemiBold';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        /* Text-primary */
+        color: #111111;
+    }
+    
+    .form-title p {
+        width: 389px;
+        height: 48px;
+        left: 525px;
+        top: 332px;
+        /* Paragraph/16px/regular */
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* #637170 */
+        color: #637170;
+    }
+    
+    .form-input-container {
+        margin: 50px 54px 0 54px;
+        /* outline: red solid 1px; */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #email {
+        left: 0%;
+        top: 0%;
+        /* Paragraph-12px/regular */
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        /* Style */
+        color: #7C7C7C;
+        /* outline: red solid 1px; */
+    }
+    
+    input {
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #E5E5E5;
+        margin: 8px 0;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #B3AFAF;
+        width: 100%;
+        position: relative;
+        padding-left: 30px;
+        padding-bottom: 8px;
+        /* outline: red solid 1px; */
+    }
+    
+    .sign-in-form {
+        position: relative;
+        /* outline: red solid 1px; */
+    }
+    
+    .form-input-container .sign-in-form i {
+        /* outline: red solid 1px; */
+        position: absolute;
+        margin-right: 6px;
+        margin-bottom: 8px;
+        margin-top: 12px;
+        left: 0;
+        font-size: 16px;
+        color: #7C7C7C;
+    }
+    
+    #password {
+        margin-top: 26px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        /* Style */
+        color: #7C7C7C;
+        /* outline: red solid 1px; */
+    }
+    
+    .fa-eye-slash {
+        position: absolute;
+        margin-left: 96%;
+        /* outline: red solid 1px; */
+    }
+    
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        /* outline: red solid 1px; */
+    }
+    
+    .forgot-password {
+        padding-top: 14px;
+        width: 135px;
+        height: 20px;
+        left: 477px;
+        top: 624px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #30656F;
+    }
+    
+    .btn {
+        background-color: #C03E21;
+        color: white;
+        border: none;
+        width: 148px;
+        height: 48px;
+        left: 816px;
+        top: 610px;
+        border-radius: 8px;
+    }

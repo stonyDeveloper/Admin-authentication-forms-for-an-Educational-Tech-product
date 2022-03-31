@@ -1,0 +1,162 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* outline: red solid 1px; */
+    }
+    
+    body {
+        width: 1440px;
+        height: 900px;
+    }
+    
+    .container {
+        margin: 1px;
+    }
+    
+    .left-container {
+        width: 232px;
+        /* outline: red solid 1px; */
+    }
+    
+    .left-container img {
+        height: 21px;
+        width: 119px;
+        margin-left: 15px;
+        margin-top: 27.65234375px;
+        margin-bottom: 35.35px;
+        border-radius: 0px;
+        /* outline: red solid 1px; */
+    }
+    
+    .left-container .menu-list ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-family: 'Helvetica 35 Thin', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 29%;
+    }
+    
+    .left-container .menu-list li {
+        padding-bottom: 30px;
+        color: #111111;
+        /* outline: red solid; */
+    }
+    
+    .left-container .menu-list a {
+        text-decoration: none;
+    }
+    
+    .right-container {
+        width: 1208px;
+        height: 900px;
+        /* outline: red solid 1px; */
+        margin-left: 234px;
+        margin-top: -411px;
+        background-color: #F3F4F5;
+    }
+    
+    .upper-container {
+        width: 1208px;
+        height: 60px;
+        /* outline: blue solid 1px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(188, 188, 188, 0.4);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .thelma-dike {
+        display: flex;
+    }
+    
+    .thelma-dike div {
+        margin-right: 27.5px;
+        margin-left: 6px;
+        padding-top: 20px;
+        /* outline: red solid 1px; */
+        font-family: 'Helvetica 35 Thin', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+    }
+    
+    .thelma-dike .fa-sort-down {
+        padding-left: 6px;
+        color: #7C7C7C;
+    }
+    
+    .thelma-dike img {
+        margin: 10px 0;
+    }
+    
+    .add-new {
+        margin-top: 10px;
+        margin-right: 66.76px;
+        padding-top: 30px;
+        display: flex;
+        font-family: 'Helvetica 35 Thin', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: #015351;
+        border: #015351 solid 1px;
+        border-radius: 10px;
+        height: 40px;
+        width: 130px;
+    }
+    
+    .add-new div {
+        margin-right: 13.75px;
+        margin-top: -21px;
+        padding-left: 14px;
+    }
+    
+    .add-new .fa-angle-down {
+        padding-top: 4px;
+        margin-top: -23px;
+    }
+    
+    #settings-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* outline: red solid 1px; */
+    }
+    
+    .settings-header {
+        font-family: 'Gascogne-DemiBold';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .btn-settings {
+        color: white;
+        background: #C03E21;
+        width: 130px;
+        height: 44px;
+        left: 816px;
+        top: 610px;
+        font-family: 'Helvetica 35 Thin', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 8px;
+        border-width: 0;
+        padding: 11.5px 25px;
+        margin-right: 30px;
+        margin-top: 36px;
+    }

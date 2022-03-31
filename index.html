@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- fonts -->
+    <link href="//db.onlinewebfonts.com/c/2614999e4fb82c7f2a1d71b63d17dbd2?family=Gascogne-DemiBold" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9?styles=49038,49040,49042,49044" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="form-container">
+        <header>
+            <img src="./asset/image 6.png" alt="">
+        </header>
+        <div class="form-body">
+            <div class="title">
+                <div>Sign In</div>
+                <p>Enter your email address and password to access your account.</p>
+            </div>
+            <form action="">
+                <div class="form-input-container">
+                    <div id="email-address">
+                        Email Address
+                    </div>
+                    <div class="email-input-field">
+                        <label for="email">
+                                    <input type="email" class="email" placeholder="hassan.musa@moneyafrica.ng">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </label>
+                    </div>
+
+                    <div id="password">
+                        Enter Password
+                    </div>
+                    <div class="password-input-field">
+                        <label for="password">
+                                    <input type="password" name="password" class="password" id="inputPassword">
+                                    <i class="fa fa-lock"></i>
+                                    <i class="fa-regular fa-eye" id="togglePassword"></i>
+                                </label>
+                    </div>
+                    <div class="links">
+                        <div class="forgot-password">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <a>
+                            <div class="btn-index">
+                                Log In <span>&#8594;</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#inputPassword");
+
+        togglePassword.addEventListener("click", function() {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+
+            // toggle the icon
+            this.classList.toggle("fa-eye-slash");
+        });
+
+        // prevent form submit
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+        });
+    </script>
+
+
+</body>
+
+</html>
